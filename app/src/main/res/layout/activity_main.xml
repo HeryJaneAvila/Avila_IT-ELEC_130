@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <LinearLayout xmls:android="http://schemas.adnroid"
         xmlns:tools="http://schemas.android.com/tools"
         android:
@@ -20,7 +21,7 @@
         android:id="@+id/firstFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/button_background_color"
+        android:background=""
         android:text="First Fragment"
         android:textcolor="@color/white"
         android:textsize="20sp" />
@@ -30,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:background="@color/button_background_color"
+        android:background=""
         android:text="First Fragment"
         android:textcolor="@color/white"
         android:textsize="20sp"/>
