@@ -11,6 +11,7 @@
 
     <!--action button for refresh -->
     <item android:title="refresh"
+        android:icon="@drawable/ic_action_refresh"
         android:id="@+id/refresh"
         android:orderInCategory="101"
         app:showAsAction="ifRoom"
