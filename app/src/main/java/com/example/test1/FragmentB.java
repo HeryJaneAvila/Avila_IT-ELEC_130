@@ -13,7 +13,7 @@ import android.view.ViewGroup;
  * Use the {@link FragmentB#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class FragmentB extends Fragment {
+public class  FragmentB extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -62,20 +62,4 @@ public class FragmentB extends Fragment {
         return inflater.inflate(R.layout.fragment_b, container, false);
     }
 }
-    <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#142AED"
-        tools:context=".FirstFragment">
 
-<TextView
-        android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:textSize="30sp"
-                android:textColor="@color/white"
-                android:text="Second Fragment" />
-
-</FrameLayout>
