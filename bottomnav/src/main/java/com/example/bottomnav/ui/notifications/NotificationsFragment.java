@@ -38,7 +38,7 @@ public class NotificationsFragment extends Fragment {
         View root = binding.getRoot();
 
         textView = binding.textNotifications;
-        final Button checkStatus = binding.buttonCheck;
+        final Button checkStatus = binding.button1;
         notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
 
         intentFilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
